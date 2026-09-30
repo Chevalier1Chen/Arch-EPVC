@@ -1,0 +1,30 @@
+# school_id SD0682
+# school_name 济宁附小渔皇路小学
+# boundary_source footprint_convex_hull_buffer_20m
+# adjacent_block_merge_distance_m 2.0
+mtllib ../campus_materials.mtl
+o SD0682_campus_boundary
+usemtl campus_boundary
+v -59.564 -49.275 0.050
+v -71.472 29.457 0.050
+v 59.564 49.275 0.050
+v 71.472 -29.457 0.050
+v -59.564 -49.275 0.050
+l 1 2 3 4 5 1
+o SD0682_T001_1hao
+v -48.706 12.673 0.000
+v 42.780 26.509 0.000
+v 48.706 -12.673 0.000
+v -42.780 -26.509 0.000
+v -48.706 12.673 21.350
+v 42.780 26.509 21.350
+v 48.706 -12.673 21.350
+v -42.780 -26.509 21.350
+usemtl roof
+f 10 11 12 13
+usemtl teaching_building
+f 9 8 7 6
+f 6 7 11 10
+f 7 8 12 11
+f 8 9 13 12
+f 9 6 10 13

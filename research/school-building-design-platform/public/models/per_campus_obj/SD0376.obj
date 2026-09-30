@@ -1,0 +1,30 @@
+# school_id SD0376
+# school_name 滕州市尚贤中学
+# boundary_source footprint_convex_hull_buffer_20m
+# adjacent_block_merge_distance_m 2.0
+mtllib ../campus_materials.mtl
+o SD0376_campus_boundary
+usemtl campus_boundary
+v -21.475 -34.104 0.050
+v -27.887 29.138 0.050
+v 21.475 34.104 0.050
+v 27.887 -29.138 0.050
+v -21.475 -34.104 0.050
+l 1 2 3 4 5 1
+o SD0376_T001_1hao
+v -3.593 -12.204 0.000
+v 5.970 -11.242 0.000
+v 3.593 12.204 0.000
+v -5.970 11.242 0.000
+v -3.593 -12.204 9.900
+v 5.970 -11.242 9.900
+v 3.593 12.204 9.900
+v -5.970 11.242 9.900
+usemtl roof
+f 10 11 12 13
+usemtl teaching_building
+f 9 8 7 6
+f 6 7 11 10
+f 7 8 12 11
+f 8 9 13 12
+f 9 6 10 13

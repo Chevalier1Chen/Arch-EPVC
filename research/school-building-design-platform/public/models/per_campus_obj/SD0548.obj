@@ -1,0 +1,35 @@
+# school_id SD0548
+# school_name 昌邑市北孟镇孙营学区小学
+# boundary_source footprint_convex_hull_buffer_20m
+# adjacent_block_merge_distance_m 2.0
+mtllib ../campus_materials.mtl
+o SD0548_campus_boundary
+usemtl campus_boundary
+v -49.307 -46.578 0.050
+v -51.049 -1.797 0.050
+v -51.201 4.995 0.050
+v -41.837 60.133 0.050
+v 37.445 62.400 0.050
+v 50.416 12.625 0.050
+v 51.974 -12.667 0.050
+v 51.905 -41.482 0.050
+v -10.893 -45.818 0.050
+v -49.307 -46.578 0.050
+l 1 2 3 4 5 6 7 8 9 10 1
+o SD0548_T001_1hao
+v 22.105 30.742 0.000
+v 22.105 41.953 0.000
+v -24.866 40.610 0.000
+v -24.866 29.843 0.000
+v 22.105 30.742 9.900
+v 22.105 41.953 9.900
+v -24.866 40.610 9.900
+v -24.866 29.843 9.900
+usemtl roof
+f 15 16 17 18
+usemtl teaching_building
+f 14 13 12 11
+f 11 12 16 15
+f 12 13 17 16
+f 13 14 18 17
+f 14 11 15 18

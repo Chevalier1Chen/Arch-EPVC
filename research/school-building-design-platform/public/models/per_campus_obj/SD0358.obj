@@ -1,0 +1,30 @@
+# school_id SD0358
+# school_name 枣庄市大(中专)学生创业园
+# boundary_source footprint_convex_hull_buffer_20m
+# adjacent_block_merge_distance_m 2.0
+mtllib ../campus_materials.mtl
+o SD0358_campus_boundary
+usemtl campus_boundary
+v 47.259 -29.488 0.050
+v -48.232 -27.911 0.050
+v -47.272 29.497 0.050
+v 48.245 27.902 0.050
+v 47.259 -29.488 0.050
+l 1 2 3 4 5 1
+o SD0358_T001_1hao
+v 27.605 -9.161 0.000
+v 27.904 8.239 0.000
+v -27.609 9.166 0.000
+v -27.900 -8.244 0.000
+v 27.605 -9.161 6.600
+v 27.904 8.239 6.600
+v -27.609 9.166 6.600
+v -27.900 -8.244 6.600
+usemtl roof
+f 10 11 12 13
+usemtl teaching_building
+f 9 8 7 6
+f 6 7 11 10
+f 7 8 12 11
+f 8 9 13 12
+f 9 6 10 13

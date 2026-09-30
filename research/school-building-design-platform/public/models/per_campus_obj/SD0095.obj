@@ -1,0 +1,37 @@
+# school_id SD0095
+# school_name 济南市无影山小学
+# boundary_source footprint_convex_hull_buffer_20m
+# adjacent_block_merge_distance_m 2.0
+mtllib ../campus_materials.mtl
+o SD0095_campus_boundary
+usemtl campus_boundary
+v 8.203 -37.836 0.050
+v -53.273 -9.384 0.050
+v -53.681 33.586 0.050
+v 40.668 34.545 0.050
+v 41.410 -37.500 0.050
+v 8.203 -37.836 0.050
+l 1 2 3 4 5 6 1
+o SD0095_T001_1hao
+v -33.394 3.454 0.000
+v 12.296 3.908 0.000
+v 12.510 -17.791 0.000
+v 21.205 -17.703 0.000
+v 20.875 14.343 0.000
+v -33.492 13.790 0.000
+v -33.394 3.454 12.360
+v 12.296 3.908 12.360
+v 12.510 -17.791 12.360
+v 21.205 -17.703 12.360
+v 20.875 14.343 12.360
+v -33.492 13.790 12.360
+usemtl roof
+f 13 14 15 16 17 18
+usemtl teaching_building
+f 12 11 10 9 8 7
+f 7 8 14 13
+f 8 9 15 14
+f 9 10 16 15
+f 10 11 17 16
+f 11 12 18 17
+f 12 7 13 18

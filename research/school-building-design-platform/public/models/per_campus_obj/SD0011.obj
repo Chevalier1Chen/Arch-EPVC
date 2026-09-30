@@ -1,0 +1,34 @@
+# school_id SD0011
+# school_name 历城二中教育集团义轩学校(北校区)
+# boundary_source footprint_convex_hull_buffer_20m
+# adjacent_block_merge_distance_m 2.0
+mtllib ../campus_materials.mtl
+o SD0011_campus_boundary
+usemtl campus_boundary
+v -215.681 -142.257 0.050
+v -212.229 194.179 0.050
+v 112.847 196.717 0.050
+v 172.290 -110.705 0.050
+v 151.113 -142.257 0.050
+v -215.681 -142.257 0.050
+l 1 2 3 4 5 6 1
+o SD0011_T001_1hao
+v 96.369 176.588 0.000
+v 151.088 -106.406 0.000
+v 140.449 -122.257 0.000
+v -195.475 -122.257 0.000
+v -192.432 174.333 0.000
+v 96.369 176.588 7.620
+v 151.088 -106.406 7.620
+v 140.449 -122.257 7.620
+v -195.475 -122.257 7.620
+v -192.432 174.333 7.620
+usemtl roof
+f 12 13 14 15 16
+usemtl teaching_building
+f 11 10 9 8 7
+f 7 8 13 12
+f 8 9 14 13
+f 9 10 15 14
+f 10 11 16 15
+f 11 7 12 16

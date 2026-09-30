@@ -1,0 +1,34 @@
+# school_id SD0938
+# school_name 聊城四中
+# boundary_source footprint_convex_hull_buffer_20m
+# adjacent_block_merge_distance_m 2.0
+mtllib ../campus_materials.mtl
+o SD0938_campus_boundary
+usemtl campus_boundary
+v 88.939 -25.519 0.050
+v -40.076 -24.890 0.050
+v -72.777 -20.887 0.050
+v -72.467 27.357 0.050
+v 95.409 26.153 0.050
+v 88.939 -25.519 0.050
+l 1 2 3 4 5 6 1
+o SD0938_T001_1hao
+v -38.808 -4.896 0.000
+v 71.298 -5.433 0.000
+v 72.769 6.315 0.000
+v -52.596 7.214 0.000
+v -52.663 -3.200 0.000
+v -38.808 -4.896 3.300
+v 71.298 -5.433 3.300
+v 72.769 6.315 3.300
+v -52.596 7.214 3.300
+v -52.663 -3.200 3.300
+usemtl roof
+f 12 13 14 15 16
+usemtl teaching_building
+f 11 10 9 8 7
+f 7 8 13 12
+f 8 9 14 13
+f 9 10 15 14
+f 10 11 16 15
+f 11 7 12 16

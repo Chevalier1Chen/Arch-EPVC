@@ -1,0 +1,16 @@
+task: hourly_prediction
+geometry_encoder: 3d_cnn
+tabular_encoder: mlp_or_tabtransformer
+temporal_encoder: lstm
+outputs:
+  - hourly_energy
+  - hourly_pv_generation
+  - hourly_grid_purchase
+  - hourly_carbon_emission
+metrics:
+  - R2
+  - MAE
+  - RMSE
+  - MAPE
+annual_hourly_consistency: optional_consistency_loss_or_postprocessing
+notes: Specify whether annual labels or annual predictions are used as static conditions.

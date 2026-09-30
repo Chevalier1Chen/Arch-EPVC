@@ -1,0 +1,30 @@
+# school_id SD0651
+# school_name 启明实验学校（原夏镇一中西校）
+# boundary_source footprint_convex_hull_buffer_20m
+# adjacent_block_merge_distance_m 2.0
+mtllib ../campus_materials.mtl
+o SD0651_campus_boundary
+usemtl campus_boundary
+v 43.026 -60.503 0.050
+v -64.215 -45.117 0.050
+v -52.350 48.278 0.050
+v 55.583 36.855 0.050
+v 43.026 -60.503 0.050
+l 1 2 3 4 5 1
+o SD0651_T001_1hao
+v 25.785 -37.825 0.000
+v 33.130 19.120 0.000
+v -34.978 26.328 0.000
+v -41.894 -28.115 0.000
+v 25.785 -37.825 9.900
+v 33.130 19.120 9.900
+v -34.978 26.328 9.900
+v -41.894 -28.115 9.900
+usemtl roof
+f 10 11 12 13
+usemtl teaching_building
+f 9 8 7 6
+f 6 7 11 10
+f 7 8 12 11
+f 8 9 13 12
+f 9 6 10 13

@@ -1,0 +1,13 @@
+License pending
+
+This public release is prepared for academic review and repository organization. Before formal public distribution, confirm the final license for:
+
+1. original code and scripts;
+2. derived numerical datasets and OBJ geometry;
+3. figures and platform materials;
+4. any third-party satellite basemap or GIS source data.
+
+Recommended final setup:
+- Code: MIT License.
+- Derived tabular data and figures: CC BY 4.0 if redistribution rights are confirmed.
+- Third-party map/satellite imagery: do not redistribute unless the provider license explicitly permits it.

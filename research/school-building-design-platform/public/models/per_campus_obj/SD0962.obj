@@ -1,0 +1,30 @@
+# school_id SD0962
+# school_name 单县实验中学
+# boundary_source footprint_convex_hull_buffer_20m
+# adjacent_block_merge_distance_m 2.0
+mtllib ../campus_materials.mtl
+o SD0962_campus_boundary
+usemtl campus_boundary
+v 16.125 -75.274 0.050
+v -36.142 -69.250 0.050
+v -15.525 75.652 0.050
+v 35.536 68.861 0.050
+v 16.125 -75.274 0.050
+l 1 2 3 4 5 1
+o SD0962_T001_1hao
+v 13.041 51.677 0.000
+v -1.077 -53.159 0.000
+v -13.448 -51.733 0.000
+v 1.484 53.214 0.000
+v 13.041 51.677 10.580
+v -1.077 -53.159 10.580
+v -13.448 -51.733 10.580
+v 1.484 53.214 10.580
+usemtl roof
+f 10 11 12 13
+usemtl teaching_building
+f 9 8 7 6
+f 6 7 11 10
+f 7 8 12 11
+f 8 9 13 12
+f 9 6 10 13

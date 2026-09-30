@@ -1,0 +1,30 @@
+# school_id SD0878
+# school_name 教学楼
+# boundary_source footprint_convex_hull_buffer_20m
+# adjacent_block_merge_distance_m 2.0
+mtllib ../campus_materials.mtl
+o SD0878_campus_boundary
+usemtl campus_boundary
+v 66.326 -26.293 0.050
+v -53.914 -25.331 0.050
+v -53.507 26.182 0.050
+v 66.732 25.238 0.050
+v 66.326 -26.293 0.050
+l 1 2 3 4 5 1
+o SD0878_T001_1hao
+v 46.575 5.396 0.000
+v 46.484 -6.134 0.000
+v -33.757 -5.492 0.000
+v -33.666 6.026 0.000
+v 46.575 5.396 14.290
+v 46.484 -6.134 14.290
+v -33.757 -5.492 14.290
+v -33.666 6.026 14.290
+usemtl roof
+f 10 11 12 13
+usemtl teaching_building
+f 9 8 7 6
+f 6 7 11 10
+f 7 8 12 11
+f 8 9 13 12
+f 9 6 10 13

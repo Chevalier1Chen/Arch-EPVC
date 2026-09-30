@@ -1,0 +1,30 @@
+# school_id SD0686
+# school_name 翟坊小学
+# boundary_source footprint_convex_hull_buffer_20m
+# adjacent_block_merge_distance_m 2.0
+mtllib ../campus_materials.mtl
+o SD0686_campus_boundary
+usemtl campus_boundary
+v -26.140 -36.992 0.050
+v -31.571 32.554 0.050
+v 26.149 36.992 0.050
+v 31.564 -32.554 0.050
+v -26.140 -36.992 0.050
+l 1 2 3 4 5 1
+o SD0686_T001_1hao
+v -7.756 -15.519 0.000
+v 10.070 -14.148 0.000
+v 7.760 15.519 0.000
+v -10.073 14.148 0.000
+v -7.756 -15.519 4.950
+v 10.070 -14.148 4.950
+v 7.760 15.519 4.950
+v -10.073 14.148 4.950
+usemtl roof
+f 10 11 12 13
+usemtl teaching_building
+f 9 8 7 6
+f 6 7 11 10
+f 7 8 12 11
+f 8 9 13 12
+f 9 6 10 13

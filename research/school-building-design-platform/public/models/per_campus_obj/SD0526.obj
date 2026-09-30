@@ -1,0 +1,30 @@
+# school_id SD0526
+# school_name 寒亭外国语学校
+# boundary_source footprint_convex_hull_buffer_20m
+# adjacent_block_merge_distance_m 2.0
+mtllib ../campus_materials.mtl
+o SD0526_campus_boundary
+usemtl campus_boundary
+v -58.702 -77.800 0.050
+v -72.945 62.953 0.050
+v 61.249 76.475 0.050
+v 70.439 -61.650 0.050
+v -58.702 -77.800 0.050
+l 1 2 3 4 5 1
+o SD0526_T001_1hao
+v -40.865 -55.414 0.000
+v 49.230 -44.147 0.000
+v 42.667 54.501 0.000
+v -51.032 45.060 0.000
+v -40.865 -55.414 9.900
+v 49.230 -44.147 9.900
+v 42.667 54.501 9.900
+v -51.032 45.060 9.900
+usemtl roof
+f 10 11 12 13
+usemtl teaching_building
+f 9 8 7 6
+f 6 7 11 10
+f 7 8 12 11
+f 8 9 13 12
+f 9 6 10 13

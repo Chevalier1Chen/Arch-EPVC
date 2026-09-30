@@ -1,0 +1,30 @@
+# school_id SD0932
+# school_name 山东聊城第三中学(新校区)
+# boundary_source footprint_convex_hull_buffer_20m
+# adjacent_block_merge_distance_m 2.0
+mtllib ../campus_materials.mtl
+o SD0932_campus_boundary
+usemtl campus_boundary
+v -30.761 -34.394 0.050
+v -31.367 33.869 0.050
+v 30.761 34.394 0.050
+v 31.367 -33.869 0.050
+v -30.761 -34.394 0.050
+l 1 2 3 4 5 1
+o SD0932_T001_1hao
+v 10.939 14.226 0.000
+v 11.190 -14.039 0.000
+v -10.939 -14.226 0.000
+v -11.190 14.039 0.000
+v 10.939 14.226 7.530
+v 11.190 -14.039 7.530
+v -10.939 -14.226 7.530
+v -11.190 14.039 7.530
+usemtl roof
+f 10 11 12 13
+usemtl teaching_building
+f 9 8 7 6
+f 6 7 11 10
+f 7 8 12 11
+f 8 9 13 12
+f 9 6 10 13

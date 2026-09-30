@@ -1,0 +1,30 @@
+# school_id SD0561
+# school_name 昌邑市奎聚街道十字路小学
+# boundary_source footprint_convex_hull_buffer_20m
+# adjacent_block_merge_distance_m 2.0
+mtllib ../campus_materials.mtl
+o SD0561_campus_boundary
+usemtl campus_boundary
+v -40.425 -29.784 0.050
+v -41.329 28.529 0.050
+v 40.437 29.784 0.050
+v 41.316 -28.529 0.050
+v -40.425 -29.784 0.050
+l 1 2 3 4 5 1
+o SD0561_T001_1hao
+v 20.741 9.479 0.000
+v 21.017 -8.838 0.000
+v -20.737 -9.479 0.000
+v -21.021 8.838 0.000
+v 20.741 9.479 13.660
+v 21.017 -8.838 13.660
+v -20.737 -9.479 13.660
+v -21.021 8.838 13.660
+usemtl roof
+f 10 11 12 13
+usemtl teaching_building
+f 9 8 7 6
+f 6 7 11 10
+f 7 8 12 11
+f 8 9 13 12
+f 9 6 10 13

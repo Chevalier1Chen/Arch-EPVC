@@ -1,0 +1,30 @@
+# school_id SD0593
+# school_name 潍坊北海高级技工学校
+# boundary_source footprint_convex_hull_buffer_20m
+# adjacent_block_merge_distance_m 2.0
+mtllib ../campus_materials.mtl
+o SD0593_campus_boundary
+usemtl campus_boundary
+v 24.606 -44.468 0.050
+v -24.483 -43.558 0.050
+v -24.643 54.743 0.050
+v 26.481 57.265 0.050
+v 24.606 -44.468 0.050
+l 1 2 3 4 5 1
+o SD0593_T001_1hao
+v -4.515 -23.925 0.000
+v 4.978 -24.101 0.000
+v 6.090 36.235 0.000
+v -4.612 35.707 0.000
+v -4.515 -23.925 9.900
+v 4.978 -24.101 9.900
+v 6.090 36.235 9.900
+v -4.612 35.707 9.900
+usemtl roof
+f 10 11 12 13
+usemtl teaching_building
+f 9 8 7 6
+f 6 7 11 10
+f 7 8 12 11
+f 8 9 13 12
+f 9 6 10 13

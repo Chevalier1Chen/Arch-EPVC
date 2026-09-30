@@ -1,0 +1,32 @@
+# school_id SD0078
+# school_name 济南市南上山街小学
+# boundary_source footprint_convex_hull_buffer_20m
+# adjacent_block_merge_distance_m 2.0
+mtllib ../campus_materials.mtl
+o SD0078_campus_boundary
+usemtl campus_boundary
+v -60.365 -53.175 0.050
+v -62.920 -9.211 0.050
+v -15.016 53.284 0.050
+v 75.929 53.284 0.050
+v 75.929 1.617 0.050
+v -1.726 -49.825 0.050
+v -60.365 -53.175 0.050
+l 1 2 3 4 5 6 7 1
+o SD0078_T001_1hao
+v -42.522 -15.476 0.000
+v -41.558 -32.068 0.000
+v -8.264 -30.166 0.000
+v -9.220 -13.574 0.000
+v -42.522 -15.476 21.490
+v -41.558 -32.068 21.490
+v -8.264 -30.166 21.490
+v -9.220 -13.574 21.490
+usemtl roof
+f 12 13 14 15
+usemtl teaching_building
+f 11 10 9 8
+f 8 9 13 12
+f 9 10 14 13
+f 10 11 15 14
+f 11 8 12 15

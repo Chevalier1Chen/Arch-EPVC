@@ -1,0 +1,30 @@
+# school_id SD0361
+# school_name 枣庄市第三中学新城校区（枣庄市实验高中）
+# boundary_source footprint_convex_hull_buffer_20m
+# adjacent_block_merge_distance_m 2.0
+mtllib ../campus_materials.mtl
+o SD0361_campus_boundary
+usemtl campus_boundary
+v 49.719 -58.613 0.050
+v -62.671 -57.445 0.050
+v -62.164 39.598 0.050
+v 49.719 39.598 0.050
+v 49.719 -58.613 0.050
+l 1 2 3 4 5 1
+o SD0361_T001_1hao
+v 29.719 -38.404 0.000
+v 29.719 19.598 0.000
+v -42.268 19.598 0.000
+v -42.567 -37.653 0.000
+v 29.719 -38.404 6.600
+v 29.719 19.598 6.600
+v -42.268 19.598 6.600
+v -42.567 -37.653 6.600
+usemtl roof
+f 10 11 12 13
+usemtl teaching_building
+f 9 8 7 6
+f 6 7 11 10
+f 7 8 12 11
+f 8 9 13 12
+f 9 6 10 13

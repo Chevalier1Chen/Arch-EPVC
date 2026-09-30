@@ -1,0 +1,30 @@
+# school_id SD0237
+# school_name 青岛卓义外籍人员子女学校
+# boundary_source footprint_convex_hull_buffer_20m
+# adjacent_block_merge_distance_m 2.0
+mtllib ../campus_materials.mtl
+o SD0237_campus_boundary
+usemtl campus_boundary
+v 35.600 -54.519 0.050
+v -59.586 -26.849 0.050
+v -35.600 54.519 0.050
+v 59.586 26.849 0.050
+v 35.600 -54.519 0.050
+l 1 2 3 4 5 1
+o SD0237_T001_1hao
+v -22.050 29.752 0.000
+v -34.726 -13.248 0.000
+v 22.050 -29.752 0.000
+v 34.726 13.248 0.000
+v -22.050 29.752 9.710
+v -34.726 -13.248 9.710
+v 22.050 -29.752 9.710
+v 34.726 13.248 9.710
+usemtl roof
+f 10 11 12 13
+usemtl teaching_building
+f 9 8 7 6
+f 6 7 11 10
+f 7 8 12 11
+f 8 9 13 12
+f 9 6 10 13

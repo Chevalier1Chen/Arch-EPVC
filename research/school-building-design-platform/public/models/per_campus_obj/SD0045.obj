@@ -1,0 +1,30 @@
+# school_id SD0045
+# school_name 山东省济南泉城中学
+# boundary_source footprint_convex_hull_buffer_20m
+# adjacent_block_merge_distance_m 2.0
+mtllib ../campus_materials.mtl
+o SD0045_campus_boundary
+usemtl campus_boundary
+v 41.480 -45.635 0.050
+v -36.999 -42.818 0.050
+v -33.410 55.769 0.050
+v 45.054 52.974 0.050
+v 41.480 -45.635 0.050
+l 1 2 3 4 5 1
+o SD0045_T001_1hao
+v -16.284 -23.549 0.000
+v 22.217 -24.931 0.000
+v 24.342 33.699 0.000
+v -14.150 35.070 0.000
+v -16.284 -23.549 18.160
+v 22.217 -24.931 18.160
+v 24.342 33.699 18.160
+v -14.150 35.070 18.160
+usemtl roof
+f 10 11 12 13
+usemtl teaching_building
+f 9 8 7 6
+f 6 7 11 10
+f 7 8 12 11
+f 8 9 13 12
+f 9 6 10 13

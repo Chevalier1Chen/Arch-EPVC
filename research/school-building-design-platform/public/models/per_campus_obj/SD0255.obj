@@ -1,0 +1,30 @@
+# school_id SD0255
+# school_name 青岛定陶路小学
+# boundary_source footprint_convex_hull_buffer_20m
+# adjacent_block_merge_distance_m 2.0
+mtllib ../campus_materials.mtl
+o SD0255_campus_boundary
+usemtl campus_boundary
+v -3.425 -56.708 0.050
+v -46.547 27.636 0.050
+v 4.251 54.425 0.050
+v 45.784 -25.499 0.050
+v -3.425 -56.708 0.050
+l 1 2 3 4 5 1
+o SD0255_T001_1hao
+v -19.750 19.157 0.000
+v 4.394 -28.066 0.000
+v 19.575 -18.438 0.000
+v -4.218 27.348 0.000
+v -19.750 19.157 30.390
+v 4.394 -28.066 30.390
+v 19.575 -18.438 30.390
+v -4.218 27.348 30.390
+usemtl roof
+f 10 11 12 13
+usemtl teaching_building
+f 9 8 7 6
+f 6 7 11 10
+f 7 8 12 11
+f 8 9 13 12
+f 9 6 10 13

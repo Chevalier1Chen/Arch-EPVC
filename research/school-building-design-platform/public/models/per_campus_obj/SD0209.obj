@@ -1,0 +1,37 @@
+# school_id SD0209
+# school_name 市南区第二实验小学
+# boundary_source footprint_convex_hull_buffer_20m
+# adjacent_block_merge_distance_m 2.0
+mtllib ../campus_materials.mtl
+o SD0209_campus_boundary
+usemtl campus_boundary
+v 23.674 -60.795 0.050
+v -27.984 -59.044 0.050
+v -24.469 14.295 0.050
+v -21.029 49.023 0.050
+v 32.676 45.061 0.050
+v 23.674 -60.795 0.050
+l 1 2 3 4 5 6 1
+o SD0209_T001_1hao
+v -4.516 12.830 0.000
+v -1.789 12.830 0.000
+v -7.036 -39.743 0.000
+v 5.356 -40.163 0.000
+v 11.034 26.603 0.000
+v -3.049 27.642 0.000
+v -4.516 12.830 23.140
+v -1.789 12.830 23.140
+v -7.036 -39.743 23.140
+v 5.356 -40.163 23.140
+v 11.034 26.603 23.140
+v -3.049 27.642 23.140
+usemtl roof
+f 13 14 15 16 17 18
+usemtl teaching_building
+f 12 11 10 9 8 7
+f 7 8 14 13
+f 8 9 15 14
+f 9 10 16 15
+f 10 11 17 16
+f 11 12 18 17
+f 12 7 13 18

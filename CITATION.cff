@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+title: "Arch-EPVC: School Building Energy, PV Generation and Carbon Prediction Dataset"
+message: "If you use this dataset or code, please cite the associated paper and this repository."
+type: dataset
+authors:
+  - family-names: "To be updated"
+    given-names: "To be updated"
+repository-code: "https://github.com/OWNER/REPOSITORY"
+license: "LicenseRef-Pending"
+keywords:
+  - school buildings
+  - building energy prediction
+  - photovoltaic generation
+  - carbon emissions
+  - multimodal temporal fusion
+  - 3D CNN
+  - LSTM

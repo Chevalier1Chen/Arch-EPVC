@@ -1,0 +1,21 @@
+﻿variable,description,note
+Number,Unique teaching-building identifier.,See workbook metadata and paper methods for unit and calculation boundary.
+A.Building area,Teaching building floor area (m2).,See workbook metadata and paper methods for unit and calculation boundary.
+B.Building footprint,Teaching building footprint area (m2).,See workbook metadata and paper methods for unit and calculation boundary.
+C.Building height,Teaching building height (m).,See workbook metadata and paper methods for unit and calculation boundary.
+D.Layer,Number of floors.,See workbook metadata and paper methods for unit and calculation boundary.
+E.Height,Floor height (m).,See workbook metadata and paper methods for unit and calculation boundary.
+F.Building length,Main teaching building length (m).,See workbook metadata and paper methods for unit and calculation boundary.
+G.Building width,Main teaching building width (m).,See workbook metadata and paper methods for unit and calculation boundary.
+H.Orientation,"Orientation angle; south-facing is 0 degree, southeast positive and southwest negative.",See workbook metadata and paper methods for unit and calculation boundary.
+I.Enclosure method,Campus/building layout enclosure category.,See workbook metadata and paper methods for unit and calculation boundary.
+J.Shape coefficient,Building shape coefficient.,See workbook metadata and paper methods for unit and calculation boundary.
+K.Roof thermal coefficient,Roof U-value (W/m2K).,See workbook metadata and paper methods for unit and calculation boundary.
+L.Wall thermal coefficient,Wall U-value (W/m2K).,See workbook metadata and paper methods for unit and calculation boundary.
+M.Ground thermal coefficient,Ground U-value (W/m2K).,See workbook metadata and paper methods for unit and calculation boundary.
+N.Window U-value,Window U-value (W/m2K).,See workbook metadata and paper methods for unit and calculation boundary.
+Epv,Annual photovoltaic generation.,See workbook metadata and paper methods for unit and calculation boundary.
+EUI,Energy use intensity.,See workbook metadata and paper methods for unit and calculation boundary.
+CEI-no PV system,Carbon emission intensity without PV.,See workbook metadata and paper methods for unit and calculation boundary.
+CEI-PV system,Carbon emission intensity with PV.,See workbook metadata and paper methods for unit and calculation boundary.
+CEI,Carbon emission indicator used in the final dataset.,See workbook metadata and paper methods for unit and calculation boundary.

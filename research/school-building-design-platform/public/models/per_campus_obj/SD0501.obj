@@ -1,0 +1,35 @@
+# school_id SD0501
+# school_name 镇北小学
+# boundary_source footprint_convex_hull_buffer_20m
+# adjacent_block_merge_distance_m 2.0
+mtllib ../campus_materials.mtl
+o SD0501_campus_boundary
+usemtl campus_boundary
+v -4.131 -44.687 0.050
+v -49.566 -44.271 0.050
+v -49.280 -18.015 0.050
+v -48.120 43.834 0.050
+v 2.801 44.615 0.050
+v 50.332 44.615 0.050
+v 50.332 17.837 0.050
+v 50.009 -3.306 0.050
+v 49.100 -44.321 0.050
+v -4.131 -44.687 0.050
+l 1 2 3 4 5 6 7 8 9 10 1
+o SD0501_T001_1hao
+v 30.332 17.990 0.000
+v 30.332 24.615 0.000
+v 2.954 24.615 0.000
+v 2.954 17.990 0.000
+v 30.332 17.990 6.600
+v 30.332 24.615 6.600
+v 2.954 24.615 6.600
+v 2.954 17.990 6.600
+usemtl roof
+f 15 16 17 18
+usemtl teaching_building
+f 14 13 12 11
+f 11 12 16 15
+f 12 13 17 16
+f 13 14 18 17
+f 14 11 15 18

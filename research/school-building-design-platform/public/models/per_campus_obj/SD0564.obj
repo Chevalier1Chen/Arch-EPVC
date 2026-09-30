@@ -1,0 +1,32 @@
+# school_id SD0564
+# school_name 昌邑市实验中学
+# boundary_source footprint_convex_hull_buffer_20m
+# adjacent_block_merge_distance_m 2.0
+mtllib ../campus_materials.mtl
+o SD0564_campus_boundary
+usemtl campus_boundary
+v 88.736 -67.912 0.050
+v 50.020 -64.215 0.050
+v -80.632 11.007 0.050
+v -75.351 69.626 0.050
+v -38.945 66.458 0.050
+v 93.556 -30.506 0.050
+v 88.736 -67.912 0.050
+l 1 2 3 4 5 6 7 1
+o SD0564_T001_1hao
+v -48.702 21.001 0.000
+v -46.246 47.018 0.000
+v -57.221 47.973 0.000
+v -59.565 21.956 0.000
+v -48.702 21.001 9.900
+v -46.246 47.018 9.900
+v -57.221 47.973 9.900
+v -59.565 21.956 9.900
+usemtl roof
+f 12 13 14 15
+usemtl teaching_building
+f 11 10 9 8
+f 8 9 13 12
+f 9 10 14 13
+f 10 11 15 14
+f 11 8 12 15

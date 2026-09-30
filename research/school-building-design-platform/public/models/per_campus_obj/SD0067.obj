@@ -1,0 +1,30 @@
+# school_id SD0067
+# school_name 济北小学
+# boundary_source footprint_convex_hull_buffer_20m
+# adjacent_block_merge_distance_m 2.0
+mtllib ../campus_materials.mtl
+o SD0067_campus_boundary
+usemtl campus_boundary
+v 54.783 -33.514 0.050
+v -54.783 -33.499 0.050
+v -54.783 33.507 0.050
+v 54.783 33.507 0.050
+v 54.783 -33.514 0.050
+l 1 2 3 4 5 1
+o SD0067_T001_1hao
+v 34.783 -13.511 0.000
+v 34.783 13.507 0.000
+v -34.783 13.507 0.000
+v -34.783 -13.502 0.000
+v 34.783 -13.511 9.900
+v 34.783 13.507 9.900
+v -34.783 13.507 9.900
+v -34.783 -13.502 9.900
+usemtl roof
+f 10 11 12 13
+usemtl teaching_building
+f 9 8 7 6
+f 6 7 11 10
+f 7 8 12 11
+f 8 9 13 12
+f 9 6 10 13

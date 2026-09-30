@@ -1,0 +1,30 @@
+# school_id SD0744
+# school_name 乳山市畅园学校
+# boundary_source footprint_convex_hull_buffer_20m
+# adjacent_block_merge_distance_m 2.0
+mtllib ../campus_materials.mtl
+o SD0744_campus_boundary
+usemtl campus_boundary
+v -35.552 -39.717 0.050
+v -46.728 24.900 0.050
+v 35.006 45.097 0.050
+v 47.270 -30.219 0.050
+v -35.552 -39.717 0.050
+l 1 2 3 4 5 1
+o SD0744_T001_1hao
+v -19.064 -17.695 0.000
+v 24.160 -12.738 0.000
+v 18.751 20.479 0.000
+v -23.846 9.953 0.000
+v -19.064 -17.695 9.900
+v 24.160 -12.738 9.900
+v 18.751 20.479 9.900
+v -23.846 9.953 9.900
+usemtl roof
+f 10 11 12 13
+usemtl teaching_building
+f 9 8 7 6
+f 6 7 11 10
+f 7 8 12 11
+f 8 9 13 12
+f 9 6 10 13

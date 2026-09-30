@@ -1,0 +1,30 @@
+# school_id SD0685
+# school_name 第三实验小学奎文校区新校
+# boundary_source footprint_convex_hull_buffer_20m
+# adjacent_block_merge_distance_m 2.0
+mtllib ../campus_materials.mtl
+o SD0685_campus_boundary
+usemtl campus_boundary
+v 59.322 -56.942 0.050
+v -77.081 -27.207 0.050
+v -61.638 49.513 0.050
+v 76.344 19.607 0.050
+v 59.322 -56.942 0.050
+l 1 2 3 4 5 1
+o SD0685_T001_1hao
+v 44.122 -33.159 0.000
+v 52.456 4.320 0.000
+v -46.037 25.667 0.000
+v -53.590 -11.858 0.000
+v 44.122 -33.159 9.900
+v 52.456 4.320 9.900
+v -46.037 25.667 9.900
+v -53.590 -11.858 9.900
+usemtl roof
+f 10 11 12 13
+usemtl teaching_building
+f 9 8 7 6
+f 6 7 11 10
+f 7 8 12 11
+f 8 9 13 12
+f 9 6 10 13

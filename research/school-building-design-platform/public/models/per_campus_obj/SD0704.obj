@@ -1,0 +1,30 @@
+# school_id SD0704
+# school_name 东平县艺术中学
+# boundary_source footprint_convex_hull_buffer_20m
+# adjacent_block_merge_distance_m 2.0
+mtllib ../campus_materials.mtl
+o SD0704_campus_boundary
+usemtl campus_boundary
+v -63.629 -32.489 0.050
+v -64.285 31.194 0.050
+v 63.629 32.498 0.050
+v 64.285 -31.203 0.050
+v -63.629 -32.489 0.050
+l 1 2 3 4 5 1
+o SD0704_T001_1hao
+v -44.080 11.399 0.000
+v -43.836 -12.289 0.000
+v 44.080 -11.405 0.000
+v 43.836 12.295 0.000
+v -44.080 11.399 15.510
+v -43.836 -12.289 15.510
+v 44.080 -11.405 15.510
+v 43.836 12.295 15.510
+usemtl roof
+f 10 11 12 13
+usemtl teaching_building
+f 9 8 7 6
+f 6 7 11 10
+f 7 8 12 11
+f 8 9 13 12
+f 9 6 10 13

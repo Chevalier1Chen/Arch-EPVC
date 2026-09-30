@@ -1,0 +1,33 @@
+# school_id SD0664
+# school_name 欢城镇中心小学
+# boundary_source footprint_convex_hull_buffer_20m
+# adjacent_block_merge_distance_m 2.0
+mtllib ../campus_materials.mtl
+o SD0664_campus_boundary
+usemtl campus_boundary
+v 56.758 -93.489 0.050
+v -93.837 -58.375 0.050
+v -42.412 124.940 0.050
+v 104.447 80.111 0.050
+v 56.758 -93.489 0.050
+l 1 2 3 4 5 1
+o SD0664_T001_1hao
+v -24.963 -53.207 0.000
+v 42.568 -69.644 0.000
+v 80.011 66.659 0.000
+v -28.682 99.838 0.000
+v -68.933 -43.645 0.000
+v -24.963 -53.207 9.900
+v 42.568 -69.644 9.900
+v 80.011 66.659 9.900
+v -28.682 99.838 9.900
+v -68.933 -43.645 9.900
+usemtl roof
+f 11 12 13 14 15
+usemtl teaching_building
+f 10 9 8 7 6
+f 6 7 12 11
+f 7 8 13 12
+f 8 9 14 13
+f 9 10 15 14
+f 10 6 11 15

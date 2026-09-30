@@ -1,0 +1,32 @@
+# school_id SD0377
+# school_name 滕州市柴胡店中学
+# boundary_source footprint_convex_hull_buffer_20m
+# adjacent_block_merge_distance_m 2.0
+mtllib ../campus_materials.mtl
+o SD0377_campus_boundary
+usemtl campus_boundary
+v -10.859 -41.251 0.050
+v -79.218 -4.275 0.050
+v -80.555 37.801 0.050
+v 50.878 41.985 0.050
+v 53.751 -7.140 0.050
+v 55.231 -38.170 0.050
+v -10.859 -41.251 0.050
+l 1 2 3 4 5 6 7 1
+o SD0377_T001_1hao
+v -59.593 7.848 0.000
+v 32.386 10.776 0.000
+v 32.049 21.375 0.000
+v -59.930 18.447 0.000
+v -59.593 7.848 4.950
+v 32.386 10.776 4.950
+v 32.049 21.375 4.950
+v -59.930 18.447 4.950
+usemtl roof
+f 12 13 14 15
+usemtl teaching_building
+f 11 10 9 8
+f 8 9 13 12
+f 9 10 14 13
+f 10 11 15 14
+f 11 8 12 15

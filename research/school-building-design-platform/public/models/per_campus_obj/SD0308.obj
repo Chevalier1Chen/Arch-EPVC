@@ -1,0 +1,33 @@
+# school_id SD0308
+# school_name 青岛耀中国际学校
+# boundary_source footprint_convex_hull_buffer_20m
+# adjacent_block_merge_distance_m 2.0
+mtllib ../campus_materials.mtl
+o SD0308_campus_boundary
+usemtl campus_boundary
+v -47.070 -62.350 0.050
+v -71.369 -21.083 0.050
+v -0.684 35.008 0.050
+v 35.636 61.225 0.050
+v 67.619 16.413 0.050
+v 31.288 -9.492 0.050
+v -17.074 -42.802 0.050
+v -47.070 -62.350 0.050
+l 1 2 3 4 5 6 7 8 1
+o SD0308_T001_1hao
+v 19.809 6.887 0.000
+v 39.716 21.081 0.000
+v 31.038 33.240 0.000
+v 11.391 19.058 0.000
+v 19.809 6.887 11.400
+v 39.716 21.081 11.400
+v 31.038 33.240 11.400
+v 11.391 19.058 11.400
+usemtl roof
+f 13 14 15 16
+usemtl teaching_building
+f 12 11 10 9
+f 9 10 14 13
+f 10 11 15 14
+f 11 12 16 15
+f 12 9 13 16

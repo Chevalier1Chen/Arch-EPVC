@@ -1,0 +1,37 @@
+# school_id SD0064
+# school_name 泺源学校
+# boundary_source footprint_convex_hull_buffer_20m
+# adjacent_block_merge_distance_m 2.0
+mtllib ../campus_materials.mtl
+o SD0064_campus_boundary
+usemtl campus_boundary
+v 12.226 -37.344 0.050
+v -61.676 -19.693 0.050
+v -64.577 36.231 0.050
+v 47.343 41.937 0.050
+v 51.336 -35.350 0.050
+v 12.226 -37.344 0.050
+l 1 2 3 4 5 6 1
+o SD0064_T001_1hao
+v 28.401 20.945 0.000
+v 30.330 -16.395 0.000
+v 14.077 -17.224 0.000
+v 13.237 -0.886 0.000
+v -42.478 -3.716 0.000
+v -43.567 17.276 0.000
+v 28.401 20.945 18.480
+v 30.330 -16.395 18.480
+v 14.077 -17.224 18.480
+v 13.237 -0.886 18.480
+v -42.478 -3.716 18.480
+v -43.567 17.276 18.480
+usemtl roof
+f 13 14 15 16 17 18
+usemtl teaching_building
+f 12 11 10 9 8 7
+f 7 8 14 13
+f 8 9 15 14
+f 9 10 16 15
+f 10 11 17 16
+f 11 12 18 17
+f 12 7 13 18

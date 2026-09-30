@@ -1,0 +1,32 @@
+# school_id SD0017
+# school_name 和庄乡马家峪小学
+# boundary_source footprint_convex_hull_buffer_20m
+# adjacent_block_merge_distance_m 2.0
+mtllib ../campus_materials.mtl
+o SD0017_campus_boundary
+usemtl campus_boundary
+v -39.866 -43.477 0.050
+v -50.866 -13.427 0.050
+v -56.439 18.367 0.050
+v 40.355 46.729 0.050
+v 48.741 18.572 0.050
+v 56.801 -14.368 0.050
+v -39.866 -43.477 0.050
+l 1 2 3 4 5 6 7 1
+o SD0017_T001_1hao
+v -31.090 -4.423 0.000
+v 29.432 13.338 0.000
+v 26.871 21.937 0.000
+v -33.651 4.203 0.000
+v -31.090 -4.423 9.900
+v 29.432 13.338 9.900
+v 26.871 21.937 9.900
+v -33.651 4.203 9.900
+usemtl roof
+f 12 13 14 15
+usemtl teaching_building
+f 11 10 9 8
+f 8 9 13 12
+f 9 10 14 13
+f 10 11 15 14
+f 11 8 12 15

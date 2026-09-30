@@ -1,0 +1,30 @@
+# school_id SD0768
+# school_name 威海市职业中等专业学校
+# boundary_source footprint_convex_hull_buffer_20m
+# adjacent_block_merge_distance_m 2.0
+mtllib ../campus_materials.mtl
+o SD0768_campus_boundary
+usemtl campus_boundary
+v -1.723 -59.208 0.050
+v -59.655 0.245 0.050
+v 1.723 59.225 0.050
+v 59.655 -0.262 0.050
+v -1.723 -59.208 0.050
+l 1 2 3 4 5 1
+o SD0768_T001_1hao
+v -1.256 -31.030 0.000
+v 31.276 0.213 0.000
+v 1.256 31.039 0.000
+v -31.276 -0.222 0.000
+v -1.256 -31.030 4.950
+v 31.276 0.213 4.950
+v 1.256 31.039 4.950
+v -31.276 -0.222 4.950
+usemtl roof
+f 10 11 12 13
+usemtl teaching_building
+f 9 8 7 6
+f 6 7 11 10
+f 7 8 12 11
+f 8 9 13 12
+f 9 6 10 13

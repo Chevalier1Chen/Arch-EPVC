@@ -1,0 +1,30 @@
+# school_id SD0801
+# school_name 日照市河山实验学校（ 日照航海工程职业学院河山校区）
+# boundary_source footprint_convex_hull_buffer_20m
+# adjacent_block_merge_distance_m 2.0
+mtllib ../campus_materials.mtl
+o SD0801_campus_boundary
+usemtl campus_boundary
+v 37.551 -37.413 0.050
+v -48.631 -21.389 0.050
+v -37.536 37.403 0.050
+v 48.617 21.400 0.050
+v 37.551 -37.413 0.050
+l 1 2 3 4 5 1
+o SD0801_T001_1hao
+v 25.255 5.397 0.000
+v 21.586 -14.102 0.000
+v -25.259 -5.392 0.000
+v -21.581 14.097 0.000
+v 25.255 5.397 15.140
+v 21.586 -14.102 15.140
+v -25.259 -5.392 15.140
+v -21.581 14.097 15.140
+usemtl roof
+f 10 11 12 13
+usemtl teaching_building
+f 9 8 7 6
+f 6 7 11 10
+f 7 8 12 11
+f 8 9 13 12
+f 9 6 10 13

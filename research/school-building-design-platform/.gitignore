@@ -1,0 +1,12 @@
+node_modules/
+local-dist/
+dist/
+.next/
+.vinext/
+.wrangler/
+.inference-venv/
+*.log
+*.tsbuildinfo
+.env*
+!.env.example
+.vercel

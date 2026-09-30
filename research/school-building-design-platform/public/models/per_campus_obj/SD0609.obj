@@ -1,0 +1,30 @@
+# school_id SD0609
+# school_name 烟草中专
+# boundary_source footprint_convex_hull_buffer_20m
+# adjacent_block_merge_distance_m 2.0
+mtllib ../campus_materials.mtl
+o SD0609_campus_boundary
+usemtl campus_boundary
+v -48.671 -38.732 0.050
+v -45.757 38.396 0.050
+v 49.064 36.625 0.050
+v 45.385 -36.370 0.050
+v -48.671 -38.732 0.050
+l 1 2 3 4 5 1
+o SD0609_T001_1hao
+v 26.344 -16.842 0.000
+v 28.050 17.014 0.000
+v -26.512 18.033 0.000
+v -27.881 -18.204 0.000
+v 26.344 -16.842 9.900
+v 28.050 17.014 9.900
+v -26.512 18.033 9.900
+v -27.881 -18.204 9.900
+usemtl roof
+f 10 11 12 13
+usemtl teaching_building
+f 9 8 7 6
+f 6 7 11 10
+f 7 8 12 11
+f 8 9 13 12
+f 9 6 10 13

@@ -1,0 +1,30 @@
+# school_id SD0940
+# school_name 聊城文轩中学(本部)
+# boundary_source footprint_convex_hull_buffer_20m
+# adjacent_block_merge_distance_m 2.0
+mtllib ../campus_materials.mtl
+o SD0940_campus_boundary
+usemtl campus_boundary
+v -59.583 -29.635 0.050
+v -60.373 28.018 0.050
+v 59.583 29.626 0.050
+v 60.373 -28.009 0.050
+v -59.583 -29.635 0.050
+l 1 2 3 4 5 1
+o SD0940_T001_1hao
+v -40.101 8.288 0.000
+v -39.859 -9.366 0.000
+v 40.101 -8.282 0.000
+v 39.859 9.360 0.000
+v -40.101 8.288 13.400
+v -39.859 -9.366 13.400
+v 40.101 -8.282 13.400
+v 39.859 9.360 13.400
+usemtl roof
+f 10 11 12 13
+usemtl teaching_building
+f 9 8 7 6
+f 6 7 11 10
+f 7 8 12 11
+f 8 9 13 12
+f 9 6 10 13

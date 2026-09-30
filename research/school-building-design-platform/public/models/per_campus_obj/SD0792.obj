@@ -1,0 +1,30 @@
+# school_id SD0792
+# school_name 山东省日照第三中学
+# boundary_source footprint_convex_hull_buffer_20m
+# adjacent_block_merge_distance_m 2.0
+mtllib ../campus_materials.mtl
+o SD0792_campus_boundary
+usemtl campus_boundary
+v -50.095 -41.451 0.050
+v -56.998 31.435 0.050
+v 50.095 41.437 0.050
+v 56.999 -31.421 0.050
+v -50.095 -41.451 0.050
+l 1 2 3 4 5 1
+o SD0792_T001_1hao
+v -32.068 -19.675 0.000
+v 35.199 -13.375 0.000
+v 32.068 19.666 0.000
+v -35.199 13.384 0.000
+v -32.068 -19.675 9.900
+v 35.199 -13.375 9.900
+v 32.068 19.666 9.900
+v -35.199 13.384 9.900
+usemtl roof
+f 10 11 12 13
+usemtl teaching_building
+f 9 8 7 6
+f 6 7 11 10
+f 7 8 12 11
+f 8 9 13 12
+f 9 6 10 13

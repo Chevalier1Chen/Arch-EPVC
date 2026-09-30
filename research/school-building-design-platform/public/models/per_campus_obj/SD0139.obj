@@ -1,0 +1,37 @@
+# school_id SD0139
+# school_name 济南市馆驿小学
+# boundary_source footprint_convex_hull_buffer_20m
+# adjacent_block_merge_distance_m 2.0
+mtllib ../campus_materials.mtl
+o SD0139_campus_boundary
+usemtl campus_boundary
+v 27.594 -43.819 0.050
+v -9.549 -37.831 0.050
+v -38.137 3.288 0.050
+v -31.660 42.034 0.050
+v 37.389 26.767 0.050
+v 27.594 -43.819 0.050
+l 1 2 3 4 5 6 1
+o SD0139_T001_1hao
+v 15.041 11.225 0.000
+v 10.594 -20.820 0.000
+v 2.022 -19.438 0.000
+v 4.817 3.056 0.000
+v -17.068 8.020 0.000
+v -15.407 17.957 0.000
+v 15.041 11.225 12.280
+v 10.594 -20.820 12.280
+v 2.022 -19.438 12.280
+v 4.817 3.056 12.280
+v -17.068 8.020 12.280
+v -15.407 17.957 12.280
+usemtl roof
+f 13 14 15 16 17 18
+usemtl teaching_building
+f 12 11 10 9 8 7
+f 7 8 14 13
+f 8 9 15 14
+f 9 10 16 15
+f 10 11 17 16
+f 11 12 18 17
+f 12 7 13 18

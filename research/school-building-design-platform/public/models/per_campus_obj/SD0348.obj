@@ -1,0 +1,30 @@
+# school_id SD0348
+# school_name 临城实验小学
+# boundary_source footprint_convex_hull_buffer_20m
+# adjacent_block_merge_distance_m 2.0
+mtllib ../campus_materials.mtl
+o SD0348_campus_boundary
+usemtl campus_boundary
+v 34.412 -26.426 0.050
+v -35.276 -25.294 0.050
+v -34.394 26.436 0.050
+v 35.259 25.283 0.050
+v 34.412 -26.426 0.050
+l 1 2 3 4 5 1
+o SD0348_T001_1hao
+v 14.742 -6.104 0.000
+v 14.934 5.617 0.000
+v -14.738 6.108 0.000
+v -14.938 -5.622 0.000
+v 14.742 -6.104 9.900
+v 14.934 5.617 9.900
+v -14.738 6.108 9.900
+v -14.938 -5.622 9.900
+usemtl roof
+f 10 11 12 13
+usemtl teaching_building
+f 9 8 7 6
+f 6 7 11 10
+f 7 8 12 11
+f 8 9 13 12
+f 9 6 10 13

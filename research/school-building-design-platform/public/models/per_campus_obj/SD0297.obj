@@ -1,0 +1,30 @@
+# school_id SD0297
+# school_name 青岛第七中学
+# boundary_source footprint_convex_hull_buffer_20m
+# adjacent_block_merge_distance_m 2.0
+mtllib ../campus_materials.mtl
+o SD0297_campus_boundary
+usemtl campus_boundary
+v 13.421 -47.218 0.050
+v -49.528 -3.773 0.050
+v -14.165 46.081 0.050
+v 50.295 4.946 0.050
+v 13.421 -47.218 0.050
+l 1 2 3 4 5 1
+o SD0297_T001_1hao
+v -8.870 18.977 0.000
+v 21.859 -0.633 0.000
+v 8.505 -19.524 0.000
+v -21.494 1.180 0.000
+v -8.870 18.977 22.250
+v 21.859 -0.633 22.250
+v 8.505 -19.524 22.250
+v -21.494 1.180 22.250
+usemtl roof
+f 10 11 12 13
+usemtl teaching_building
+f 9 8 7 6
+f 6 7 11 10
+f 7 8 12 11
+f 8 9 13 12
+f 9 6 10 13

@@ -1,0 +1,30 @@
+# school_id SD0409
+# school_name 永安小学
+# boundary_source footprint_convex_hull_buffer_20m
+# adjacent_block_merge_distance_m 2.0
+mtllib ../campus_materials.mtl
+o SD0409_campus_boundary
+usemtl campus_boundary
+v -101.019 -100.666 0.050
+v -121.693 83.723 0.050
+v 104.141 99.457 0.050
+v 118.543 -82.505 0.050
+v -101.019 -100.666 0.050
+l 1 2 3 4 5 1
+o SD0409_T001_1hao
+v -83.308 -79.133 0.000
+v 97.033 -64.216 0.000
+v 85.767 78.128 0.000
+v -99.493 65.221 0.000
+v -83.308 -79.133 9.900
+v 97.033 -64.216 9.900
+v 85.767 78.128 9.900
+v -99.493 65.221 9.900
+usemtl roof
+f 10 11 12 13
+usemtl teaching_building
+f 9 8 7 6
+f 6 7 11 10
+f 7 8 12 11
+f 8 9 13 12
+f 9 6 10 13

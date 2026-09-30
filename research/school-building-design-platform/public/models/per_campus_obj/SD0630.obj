@@ -1,0 +1,30 @@
+# school_id SD0630
+# school_name 青州市实验初中
+# boundary_source footprint_convex_hull_buffer_20m
+# adjacent_block_merge_distance_m 2.0
+mtllib ../campus_materials.mtl
+o SD0630_campus_boundary
+usemtl campus_boundary
+v -52.385 -29.837 0.050
+v -55.204 24.344 0.050
+v 52.385 29.845 0.050
+v 55.204 -24.352 0.050
+v -52.385 -29.837 0.050
+l 1 2 3 4 5 1
+o SD0630_T001_1hao
+v -34.191 5.392 0.000
+v -33.450 -8.846 0.000
+v 34.191 -5.397 0.000
+v 33.450 8.851 0.000
+v -34.191 5.392 11.310
+v -33.450 -8.846 11.310
+v 34.191 -5.397 11.310
+v 33.450 8.851 11.310
+usemtl roof
+f 10 11 12 13
+usemtl teaching_building
+f 9 8 7 6
+f 6 7 11 10
+f 7 8 12 11
+f 8 9 13 12
+f 9 6 10 13

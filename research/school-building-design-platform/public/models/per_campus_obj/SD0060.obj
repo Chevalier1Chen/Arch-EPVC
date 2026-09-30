@@ -1,0 +1,30 @@
+# school_id SD0060
+# school_name 枯河联小
+# boundary_source footprint_convex_hull_buffer_20m
+# adjacent_block_merge_distance_m 2.0
+mtllib ../campus_materials.mtl
+o SD0060_campus_boundary
+usemtl campus_boundary
+v 43.190 -47.232 0.050
+v -52.204 -35.652 0.050
+v -42.024 46.595 0.050
+v 51.047 36.285 0.050
+v 43.190 -47.232 0.050
+l 1 2 3 4 5 1
+o SD0060_T001_1hao
+v 29.292 18.573 0.000
+v 25.202 -24.902 0.000
+v -29.893 -18.214 0.000
+v -24.601 24.543 0.000
+v 29.292 18.573 13.430
+v 25.202 -24.902 13.430
+v -29.893 -18.214 13.430
+v -24.601 24.543 13.430
+usemtl roof
+f 10 11 12 13
+usemtl teaching_building
+f 9 8 7 6
+f 6 7 11 10
+f 7 8 12 11
+f 8 9 13 12
+f 9 6 10 13

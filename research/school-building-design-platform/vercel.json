@@ -1,0 +1,14 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "buildCommand": "node node_modules/vite/bin/vite.js build --config static-site/vite.config.ts",
+  "outputDirectory": "local-dist",
+  "rewrites": [
+    { "source": "/zh", "destination": "/index.html" },
+    { "source": "/zh/:path*", "destination": "/index.html" }
+  ],
+  "functions": {
+    "api/osm-map.mjs": {
+      "maxDuration": 30
+    }
+  }
+}

@@ -1,0 +1,32 @@
+# school_id SD0974
+# school_name 孙寺镇小学
+# boundary_source footprint_convex_hull_buffer_20m
+# adjacent_block_merge_distance_m 2.0
+mtllib ../campus_materials.mtl
+o SD0974_campus_boundary
+usemtl campus_boundary
+v -13.796 -38.355 0.050
+v -97.793 -26.179 0.050
+v -91.155 19.026 0.050
+v 20.726 36.663 0.050
+v 90.784 27.702 0.050
+v 85.069 -16.467 0.050
+v -13.796 -38.355 0.050
+l 1 2 3 4 5 6 7 1
+o SD0974_T001_1hao
+v -75.094 -9.260 0.000
+v -14.547 -18.037 0.000
+v -12.957 -7.227 0.000
+v -73.505 1.561 0.000
+v -75.094 -9.260 9.610
+v -14.547 -18.037 9.610
+v -12.957 -7.227 9.610
+v -73.505 1.561 9.610
+usemtl roof
+f 12 13 14 15
+usemtl teaching_building
+f 11 10 9 8
+f 8 9 13 12
+f 9 10 14 13
+f 10 11 15 14
+f 11 8 12 15

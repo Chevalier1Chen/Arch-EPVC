@@ -1,0 +1,33 @@
+# school_id SD0856
+# school_name 临沂职业学院（经开校区）
+# boundary_source footprint_convex_hull_buffer_20m
+# adjacent_block_merge_distance_m 2.0
+mtllib ../campus_materials.mtl
+o SD0856_campus_boundary
+usemtl campus_boundary
+v 61.348 -94.937 0.050
+v -158.107 -3.764 0.050
+v -187.668 49.689 0.050
+v -134.688 78.577 0.050
+v 42.834 57.954 0.050
+v 123.383 0.977 0.050
+v 87.833 -67.903 0.050
+v 61.348 -94.937 0.050
+l 1 2 3 4 5 6 7 8 1
+o SD0856_T001_1hao
+v -143.985 12.026 0.000
+v -114.245 28.242 0.000
+v -130.688 57.978 0.000
+v -160.429 41.761 0.000
+v -143.985 12.026 9.200
+v -114.245 28.242 9.200
+v -130.688 57.978 9.200
+v -160.429 41.761 9.200
+usemtl roof
+f 13 14 15 16
+usemtl teaching_building
+f 12 11 10 9
+f 9 10 14 13
+f 10 11 15 14
+f 11 12 16 15
+f 12 9 13 16

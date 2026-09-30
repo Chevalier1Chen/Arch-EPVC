@@ -1,0 +1,32 @@
+# school_id SD0628
+# school_name 青州市云门书院学校
+# boundary_source footprint_convex_hull_buffer_20m
+# adjacent_block_merge_distance_m 2.0
+mtllib ../campus_materials.mtl
+o SD0628_campus_boundary
+usemtl campus_boundary
+v 53.725 -115.479 0.050
+v 10.588 -112.065 0.050
+v -87.522 133.141 0.050
+v -85.148 162.879 0.050
+v -7.485 156.796 0.050
+v 55.986 -87.957 0.050
+v 53.725 -115.479 0.050
+l 1 2 3 4 5 6 7 1
+o SD0628_T001_1hao
+v -23.676 132.811 0.000
+v -23.265 137.971 0.000
+v -66.801 141.381 0.000
+v -67.213 136.220 0.000
+v -23.676 132.811 9.900
+v -23.265 137.971 9.900
+v -66.801 141.381 9.900
+v -67.213 136.220 9.900
+usemtl roof
+f 12 13 14 15
+usemtl teaching_building
+f 11 10 9 8
+f 8 9 13 12
+f 9 10 14 13
+f 10 11 15 14
+f 11 8 12 15

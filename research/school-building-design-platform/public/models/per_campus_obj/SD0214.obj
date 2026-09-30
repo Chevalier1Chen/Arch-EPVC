@@ -1,0 +1,33 @@
+# school_id SD0214
+# school_name 普东中学
+# boundary_source footprint_convex_hull_buffer_20m
+# adjacent_block_merge_distance_m 2.0
+mtllib ../campus_materials.mtl
+o SD0214_campus_boundary
+usemtl campus_boundary
+v -12.605 -102.513 0.050
+v -138.838 91.722 0.050
+v -139.573 126.680 0.050
+v -9.168 129.493 0.050
+v 83.755 -15.601 0.050
+v 85.043 -49.482 0.050
+v 49.974 -101.482 0.050
+v -12.605 -102.513 0.050
+l 1 2 3 4 5 6 7 8 1
+o SD0214_T001_1hao
+v -1.867 -82.333 0.000
+v 39.221 -81.656 0.000
+v 38.838 -58.234 0.000
+v -2.265 -58.910 0.000
+v -1.867 -82.333 4.950
+v 39.221 -81.656 4.950
+v 38.838 -58.234 4.950
+v -2.265 -58.910 4.950
+usemtl roof
+f 13 14 15 16
+usemtl teaching_building
+f 12 11 10 9
+f 9 10 14 13
+f 10 11 15 14
+f 11 12 16 15
+f 12 9 13 16

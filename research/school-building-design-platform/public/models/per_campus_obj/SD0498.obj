@@ -1,0 +1,32 @@
+# school_id SD0498
+# school_name 解甲庄中心小学
+# boundary_source footprint_convex_hull_buffer_20m
+# adjacent_block_merge_distance_m 2.0
+mtllib ../campus_materials.mtl
+o SD0498_campus_boundary
+usemtl campus_boundary
+v -28.798 -57.995 0.050
+v -37.426 -7.307 0.050
+v -28.615 43.828 0.050
+v 49.511 53.946 0.050
+v 56.637 10.009 0.050
+v 3.652 -52.578 0.050
+v -28.798 -57.995 0.050
+l 1 2 3 4 5 6 7 1
+o SD0498_T001_1hao
+v -8.869 9.359 0.000
+v 35.420 15.901 0.000
+v 32.870 31.624 0.000
+v -11.411 25.889 0.000
+v -8.869 9.359 9.900
+v 35.420 15.901 9.900
+v 32.870 31.624 9.900
+v -11.411 25.889 9.900
+usemtl roof
+f 12 13 14 15
+usemtl teaching_building
+f 11 10 9 8
+f 8 9 13 12
+f 9 10 14 13
+f 10 11 15 14
+f 11 8 12 15
