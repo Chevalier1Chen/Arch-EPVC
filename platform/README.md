@@ -1,5 +1,7 @@
 # Arch-EPVC platform
 
+Live platform: [Arch-EPVC](https://arch-epvc.vercel.app). The homepage returned HTTP 200 with the matching project title during release preparation. This check does not verify all inference workflows.
+
 The implemented platform source and browser inference models are included in `research/school-building-design-platform/`. Its own README describes local operation. This directory also retains the platform overview figure.
 
 Core functions:

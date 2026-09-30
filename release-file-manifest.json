@@ -156,8 +156,8 @@
   },
   {
     "path": "docs/index.html",
-    "bytes": 7653,
-    "sha256": "54d258b9f8442a1041b525f3d58064b75db39944f3b2e3fb041fb5f20e88a0a2"
+    "bytes": 7896,
+    "sha256": "e6648ad5aa9cae4c0babb655ccc9a8ec5345927d051de4453fe89c432d378b3b"
   },
   {
     "path": "LICENSE",
@@ -186,8 +186,8 @@
   },
   {
     "path": "platform/README.md",
-    "bytes": 645,
-    "sha256": "a8f64630914a169a4633c92127b4b136f9428053f4ba87476fd04a521033229e"
+    "bytes": 849,
+    "sha256": "d705cf600a5f4f5dcc139ace82208a1f2c83b510f6fcc7cd59df15e1915b026d"
   },
   {
     "path": "prepare_hourly_archives.ps1",
@@ -201,13 +201,13 @@
   },
   {
     "path": "README.md",
-    "bytes": 2861,
-    "sha256": "0691d88bf0d6e7850b1fc4d24d8d728a8b0a204d061b81e947729844e1b627d5"
+    "bytes": 2920,
+    "sha256": "ba777a619b981d6d9755602942d89b088491d6af7754dce7457e1c4490052ff6"
   },
   {
     "path": "README_CN.md",
-    "bytes": 1700,
-    "sha256": "23831b955550604ba9cc5dcb555c083e17fcf57ab923b9588859d8eb17fc2dd8"
+    "bytes": 1771,
+    "sha256": "521324892c6777bcf88485d6d698998536da400d8f9bfe5028db648a946e2bb1"
   },
   {
     "path": "release_summary.json",
