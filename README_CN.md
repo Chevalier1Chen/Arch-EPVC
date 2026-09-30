@@ -2,6 +2,8 @@
 
 [打开 Arch-EPVC 在线评价平台](https://arch-epvc.vercel.app)
 
+[论文项目主页](https://chevalier1chen.github.io/Arch-EPVC/) | [完整数据与源码下载](https://github.com/Chevalier1Chen/Arch-EPVC/releases/tag/v0.1.0)
+
 本仓库用于公开论文相关的数据、模型说明、模拟流程和平台展示页面。研究对象为山东省学校教学建筑，目标是同时服务于**新建学校建筑方案阶段评价**与**既有教学楼低碳改造/光伏潜力评估**。
 
 ## 仓库内容
@@ -18,7 +20,7 @@
 
 ## 重要说明
 
-当前是本地待发布包，尚未上传 GitHub。请先看 `PUBLICATION_STATUS.md`：原训练代码仍含本机路径，平台既有建筑逐时模块存在资源缺失，不能将此包标为全部功能已复现通过。已核实的浏览器模型版本与其他实验版本按来源区分。
+公开仓库为 `Chevalier1Chen/Arch-EPVC`。请先看 `PUBLICATION_STATUS.md`：原训练代码仍含本机路径，平台既有建筑逐时模块存在资源缺失，不能将此包标为全部功能已复现通过。已核实的浏览器模型版本与其他实验版本按来源区分。
 
 完整逐时数据约数 GB，不建议直接放入普通 GitHub 仓库。本仓库先公开样例文件和完整清单；正式公开时建议使用 GitHub Releases、Git LFS、Zenodo 或 OSF 承载完整数据包。
 

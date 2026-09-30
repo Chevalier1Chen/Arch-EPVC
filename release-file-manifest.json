@@ -16,8 +16,8 @@
   },
   {
     "path": "CITATION.cff",
-    "bytes": 559,
-    "sha256": "a87315d00928accdd96dc54122aed0e6c35c69efccf9e617fd829c862a5b5184"
+    "bytes": 567,
+    "sha256": "fe803af83ed432575c9c71e20b9932b5997808d83af7d74f47d13e7f6ce1948e"
   },
   {
     "path": "data/geometry/teaching_building_OBJ_summary_3356.zip",
@@ -156,8 +156,8 @@
   },
   {
     "path": "docs/index.html",
-    "bytes": 7896,
-    "sha256": "e6648ad5aa9cae4c0babb655ccc9a8ec5345927d051de4453fe89c432d378b3b"
+    "bytes": 8136,
+    "sha256": "c9034a931553b38324b35eeffbb1e287027f8fe62cad6b1330c0eee7e83c3827"
   },
   {
     "path": "LICENSE",
@@ -196,18 +196,23 @@
   },
   {
     "path": "PUBLICATION_STATUS.md",
-    "bytes": 1332,
-    "sha256": "6e6db467e757dc6c9b6225924382fbb7906bc80c8faa56640343aeaebfa2f068"
+    "bytes": 1503,
+    "sha256": "2f30a8ce2cff96e7864b0dd77c333a3e60c1eb8caeaa07c6ec2a32a31991dceb"
   },
   {
     "path": "README.md",
-    "bytes": 2920,
-    "sha256": "ba777a619b981d6d9755602942d89b088491d6af7754dce7457e1c4490052ff6"
+    "bytes": 3087,
+    "sha256": "f50d03be0ed9786e9d6780f26141f9b2e91bd98111e2b59aa092169ac42e0c45"
   },
   {
     "path": "README_CN.md",
-    "bytes": 1771,
-    "sha256": "521324892c6777bcf88485d6d698998536da400d8f9bfe5028db648a946e2bb1"
+    "bytes": 1930,
+    "sha256": "a4a5c76adc07f1e115d8e85e7c27c1196e44cbb33240c43c037f9064faf0b64e"
+  },
+  {
+    "path": "RELEASE_NOTES.md",
+    "bytes": 1251,
+    "sha256": "e279325640344cdd6fff31c06d0e9753d7321d2281b1f5cc312ccdaa44f73eeb"
   },
   {
     "path": "release_summary.json",
@@ -451,8 +456,8 @@
   },
   {
     "path": "research/school-building-design-platform/app/components/DesignPlatform.tsx",
-    "bytes": 64754,
-    "sha256": "5bad1309e0e70a891ce677ed857c9155036944fb81bdc93227562241f9f7eb10"
+    "bytes": 64970,
+    "sha256": "246d422984ae54c1fcbf7970f08e56bcefab4b868bcfaa899b93a8da0050f638"
   },
   {
     "path": "research/school-building-design-platform/app/components/DomesticChinese.tsx",

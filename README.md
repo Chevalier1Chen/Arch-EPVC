@@ -2,6 +2,8 @@
 
 [Open Arch-EPVC Platform](https://arch-epvc.vercel.app)
 
+[Project page](https://chevalier1chen.github.io/Arch-EPVC/) | [Full dataset and release downloads](https://github.com/Chevalier1Chen/Arch-EPVC/releases/tag/v0.1.0)
+
 This release package provides a project page, research data, original training scripts, trained models and platform source for a school-building performance study in Shandong Province, China. Training scripts retain machine-specific paths; full independent reproduction has not been verified.
 
 **Project scope.** The dataset and workflow support both early-stage design assessment for new school buildings and low-carbon retrofit evaluation for existing teaching buildings. The study integrates 3D geometry, structured building attributes, envelope thermal properties, weather time series and simulated performance indicators for annual and hourly prediction.
