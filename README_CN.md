@@ -8,7 +8,7 @@
 
 当前版本不包含平台源码、训练源码、模型权重、论文图件、展示表格、PPT 或建模结果包。数值数据工作簿和几何编号索引属于数据集本体，予以保留。
 
-- [研究项目页与数据下载](https://chevalier1chen.github.io/Arch-EPVC/)
+- [研究项目页](https://chevalier1chen.github.io/Arch-EPVC/)
 - [完整逐时数据下载](https://github.com/Chevalier1Chen/Arch-EPVC/releases/tag/v0.1.0)：3356 个工作簿，分为 7 个独立压缩包。
 - `data/processed/`：建筑属性及年度模拟指标。
 - `data/geometry/`：教学建筑 OBJ 数据包及编号索引。

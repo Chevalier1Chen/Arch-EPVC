@@ -8,7 +8,7 @@ This repository distributes data only: numerical building attributes, annual sim
 
 ## Download
 
-- [Project page and dataset downloads](https://chevalier1chen.github.io/Arch-EPVC/)
+- [Research project page](https://chevalier1chen.github.io/Arch-EPVC/)
 - [Full hourly data: 3,356 workbooks in seven independent ZIP archives](https://github.com/Chevalier1Chen/Arch-EPVC/releases/tag/v0.1.0)
 - [Numerical data](data/processed/)
 - [OBJ geometry data](data/geometry/teaching_building_OBJ_summary_3356.zip)
