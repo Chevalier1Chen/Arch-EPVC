@@ -1,36 +1,18 @@
-# Arch-EPVC: School Building Energy, PV Generation and Carbon Prediction Dataset
+# Arch-EPVC School Building Dataset
 
-[Open Arch-EPVC Platform](https://arch-epvc.vercel.app)
+This repository distributes data only: numerical building attributes, annual simulation indicators, OBJ geometry and building-level hourly simulation data. Platform source, training source, trained weights, figures, presentation slides and model-evaluation result packages are not included in the current version.
 
-[Project page](https://chevalier1chen.github.io/Arch-EPVC/) | [Full dataset and release downloads](https://github.com/Chevalier1Chen/Arch-EPVC/releases/tag/v0.1.0)
+## Download
 
-This release package provides a project page, research data, original training scripts, trained models and platform source for a school-building performance study in Shandong Province, China. Training scripts retain machine-specific paths; full independent reproduction has not been verified.
+- [Dataset download page](https://chevalier1chen.github.io/Arch-EPVC/)
+- [Full hourly data: 3,356 workbooks in seven independent ZIP archives](https://github.com/Chevalier1Chen/Arch-EPVC/releases/tag/v0.1.0)
+- [Numerical data](data/processed/)
+- [OBJ geometry data](data/geometry/teaching_building_OBJ_summary_3356.zip)
+- [Hourly workbook examples](data/samples/time_series/)
+- [Building-to-archive index and workbook checksums](data/metadata/hourly_archive_manifest.csv)
+- [Hourly archive checksums](data/metadata/archive_checksums.csv)
+- [Variable descriptions](data/metadata/variable_dictionary.csv)
 
-**Project scope.** The dataset and workflow support both early-stage design assessment for new school buildings and low-carbon retrofit evaluation for existing teaching buildings. The study integrates 3D geometry, structured building attributes, envelope thermal properties, weather time series and simulated performance indicators for annual and hourly prediction.
+Each hourly ZIP can be extracted separately. To assemble the full collection, extract all seven into the same directory. Numerical workbooks and geometry index tables are retained as dataset records, not as paper presentation tables.
 
-## What is included
-
-- `data/processed/`: structured numerical data and annual performance indicators.
-- `data/geometry/`: summarized OBJ geometry package for teaching buildings.
-- `data/samples/time_series/`: sample hourly performance files. The full hourly data collection is indexed in `data/metadata/time_series_manifest.csv` and should be distributed through GitHub Releases, Git LFS, Zenodo, OSF or another large-file archive.
-- `simulation/`: Grasshopper definitions and Rhino/GH helper scripts used for OBJ import, simulation mapping and geometry processing.
-- `research/`: original training scripts, network definitions, the platform's paired PyTorch checkpoints, preprocessing parameters, and implemented platform source with ONNX models.
-- `models/`: model release notes; earlier configuration templates are illustrative, not the authoritative training configuration.
-- `platform/`: Arch-EPVC platform overview materials.
-- `docs/`: GitHub Pages project page.
-
-## Research tasks
-
-1. Annual-scale prediction: fuse 3D geometry and structured numerical features to predict EUI, annual PV generation and carbon-emission indicators.
-2. Hourly-scale prediction: fuse geometry, numerical features and weather/performance time series to predict 8760 h energy demand, PV generation and operational carbon emissions.
-3. Low-carbon assessment: estimate PV self-consumption, grid purchase, carbon reduction and retrofit/design scenario performance.
-
-## Data release note
-
-The full hourly dataset is larger than a normal GitHub repository. This repository therefore includes sample hourly files and a complete manifest. For formal publication, attach the full time-series archive as GitHub Release assets or publish it on Zenodo/OSF and paste the DOI/link here.
-
-Satellite basemap images are not included in the default public release unless their redistribution license is confirmed.
-
-## Citation
-
-If you use this repository, please cite the associated paper and this repository. A `CITATION.cff` file is provided and can be updated after the final title, authors and DOI are confirmed.
+This publication update changes the distributed materials, not the underlying data values. It is not a new numerical-quality audit or an independent verification of simulation accuracy or 8,760-hour completeness. No new reuse license is granted by this update.

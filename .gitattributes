@@ -1,9 +1,0 @@
-* text=auto
-*.pt binary
-*.pth binary
-*.onnx binary
-*.xlsx binary
-*.zip binary
-*.gh binary
-*.npz binary
-*.joblib binary
